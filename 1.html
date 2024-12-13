@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 4rem;
+            animation: fadeIn 2s ease-in-out, colorChange 5s infinite;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-top: 1rem;
+            animation: fadeIn 4s ease-in-out;
+        }
+        .heart {
+            margin-top: 20px;
+            font-size: 3rem;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+        @keyframes colorChange {
+            0% {
+                color: #fff;
+            }
+            50% {
+                color: #ffdde1;
+            }
+            100% {
+                color: #fff;
+            }
+        }
+        .message {
+            font-size: 1.2rem;
+            margin: 20px;
+            animation: fadeIn 6s ease-in-out;
+        }
+        .poem {
+            font-size: 1.5rem;
+            margin: 20px;
+            font-style: italic;
+            animation: fadeIn 7s ease-in-out;
+        }
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday, My Love! ❤</h1>
+    <h2>To the most amazing person in my life</h2>
+    <div class="heart">❤️</div>
+    <p class="message">I hope your day is as special and beautiful as you are. Thank you for bringing so much happiness into my life. Here's to celebrating you and all the joy you bring. I love you!</p>
+
+    <p class="poem">"Roses are red, violets are blue,<br>
+    Today is your day, so let's cherish you.<br>
+    A heart so kind, a soul so true,<br>
+    Happy Birthday, my love, I adore you!"</p>
+
+    <p class="poem">"On this day, the stars align,<br>
+    To celebrate your life, so divine.<br>
+    May joy and laughter fill your way,<br>
+    Wishing you a perfect birthday!"</p>
+
+    <div class="footer">Made with love by Your Forever <3</div>
+</body>
+</html>
